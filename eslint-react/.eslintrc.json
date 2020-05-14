@@ -1,0 +1,29 @@
+{
+  "extends": ["react-app", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "indent": [
+      "error",
+      2
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ]
+   
+  },
+  "globals": {
+    "window": true,
+    "document": true,
+    "localStorage": true,
+    "FormData": true,
+    "FileReader": true,
+    "Blob": true,
+    "navigator": true
+  },
+  "parser": "babel-eslint"
+}
