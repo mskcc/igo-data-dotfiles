@@ -2,10 +2,6 @@
   "extends": ["react-app", "prettier"],
   "plugins": ["prettier"],
   "rules": {
-    "indent": [
-      "error",
-      2
-    ],
     "quotes": [
       "error",
       "single"
