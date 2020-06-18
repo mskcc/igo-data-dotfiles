@@ -3,7 +3,7 @@
 
 
 ## Web Development
-- ESLint for linting, prettier as a formatter too make linting less painfull
+- ESLint for linting, prettier as a formatter too make linting less painful
 
 
 ### React
