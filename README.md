@@ -5,7 +5,7 @@
 ## Web Development
 - ESLint for linting, prettier as a formatter too make linting less painful
 
-
+## Frameworks
 ### React
 ```
 $ npm install --save-dev eslint prettier eslint-config-prettier eslint-plugin-prettier eslint-config-react-app babel-eslint eslint-plugin-import eslint-plugin-flowtype eslint-plugin-jsx-a11y eslint-plugin-react
@@ -43,4 +43,10 @@ Add these lines to your settings:
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     }
+```
+
+## Running eslint
+```
+# From project w/ node_modules installed
+$ ./node_modules/.bin/eslint --fix .
 ```
