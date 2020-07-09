@@ -3,14 +3,20 @@
 
 
 ## Web Development
-- ESLint for linting, prettier as a formatter too make linting less painfull
+- ESLint for linting, prettier as a formatter too make linting less painful
 
 
 ### React
-`$ npm install eslint prettier eslint-config-prettier eslint-plugin-prettier eslint-config-react-app babel-eslint`
+```
+$ npm install --save-dev eslint prettier eslint-config-prettier eslint-plugin-prettier eslint-config-react-app babel-eslint eslint-plugin-import eslint-plugin-flowtype eslint-plugin-jsx-a11y eslint-plugin-react
+```
 - if you see some peer dependency warnings, make sure they're satisfied
 - If you used `create-react-app` you will have redundant rules in package.json to use react-app for linting, this won't cause compatibility issues
-  
+
+If using react-hooks,
+```
+$ npm install --save-dev eslint-plugin-react-hooks
+```
   
 ### Node
 ```
